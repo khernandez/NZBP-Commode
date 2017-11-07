@@ -621,17 +621,4 @@ This requires a 50+ food bar:
 	<modify id="0" stat="health" amount="-3" rate="0.5"/>
 	<modify id="1" stat="speedmodifier" mulValue="0.1" duration="3.2"/>
 </buff>
-
-<!-- 2017-09-14 KFH: Self-regulate core tempurature (ie, to ignore temperature/weather effects)
-     2017-09-19 KFH: Commenting this out; going to remove weather buffs instead.                 -->
-
-<!-- *************************************************************************
-<buff id="selfRegulateLoTemp" stack="discard" duration="0" buffif="coretemp less 60" debuffif="coretemp gequal 60" type="coretemp">
-  <modify id="0" stat="coretemp" setValue="70"/>
-</buff>
-<buff id="selfRegulateHiTemp" stack="discard" duration="0" buffif="coretemp greater 80" debuffif="coretemp lequal 80" type="coretemp">
-  <modify id="0" stat="coretemp" setValue="70"/>
-</buff>
-     *************************************************************************  --> 
-
 </buffs>
