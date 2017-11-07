@@ -538,8 +538,10 @@
 		</rect>
 	</window>
 
+	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
         <window name="windowForgeInput" width="228" height="229" panel="Right"
 		controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
+	<!--#$-IGS END.-$#-->
 		<panel style="header.panel">
 			<sprite style="header.icon" sprite="ui_game_symbol_forge"/>
 			<label style="header.name" text="INPUT" text_key="xuiSmelting" />
