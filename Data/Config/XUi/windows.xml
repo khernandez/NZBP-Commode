@@ -539,7 +539,11 @@
 	</window>
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
+<<<<<<< HEAD
 	<window name="windowForgeInput" width="228" height="229" panel="Right"
+=======
+        <window name="windowForgeInput" width="228" height="229" panel="Right"
+>>>>>>> edbf962d9daa1520a5ab8a95dda607e4d9cfb4b8
 		controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 		<panel style="header.panel">
