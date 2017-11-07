@@ -1270,7 +1270,7 @@
 
 	<!-- Ana's added mod code to increase minibike storage -->	
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-	<window name="windowVehicleStorage" width="455" height="262" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]" cursor_area="true" >
+	<window name="windowVehicleStorage" width="453" height="262" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<button depth="1" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_loot_sack" tooltip_key="lblSortContainer" sound="[paging_click]" />
